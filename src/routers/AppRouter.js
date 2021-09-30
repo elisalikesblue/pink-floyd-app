@@ -14,7 +14,7 @@ export const AppRouter = () => {
         <Router>
             <div>
                 <Switch>
-                    <Route path = "/Lista" exact>
+                    <Route path = "/Lista/:serach?" exact>
                         <NavBar/>
                         <AlbumList></AlbumList>
                         
