@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavBar } from '../Nav/NavBar';
 import {MDBRow, MDBCol} from 'mdb-react-ui-kit';
 import { useSelector } from 'react-redux';
 
@@ -25,7 +24,7 @@ export const AlbumList = () => {
 
     return (
         <div>
-            <NavBar/>
+          
             <main>
                 {
                     loading && <p className="spinner-border text-primary"/>

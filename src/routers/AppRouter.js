@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import { AlbumInfo } from '../components/AlbumInfo';
 import { AlbumList } from '../components/AlbumList';
+import { NavBar } from '../nav/NavBar';
 
 export const AppRouter = () => {
     return (
@@ -14,11 +15,13 @@ export const AppRouter = () => {
             <div>
                 <Switch>
                     <Route path = "/Lista" exact>
+                        <NavBar/>
                         <AlbumList></AlbumList>
                         
                     </Route>
 
                     <Route path = "/Album/:id">
+                        <NavBar/>
                         <AlbumInfo></AlbumInfo>
                     </Route>
 

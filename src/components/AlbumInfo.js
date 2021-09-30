@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
 
 import { AlbumDetail } from './AlbumDetail'
-import { NavBar } from '../Nav/NavBar'
 import { AlbumCarousel } from './Carousel'
 import { get_one_album } from '../redux/Ducks/albumsDucks'
 import { get_albums } from '../redux/Ducks/albumsDucks'
@@ -31,7 +30,7 @@ export const AlbumInfo = () => {
     
     return (
         <div>
-            <NavBar/>
+  
 
             {
                     loading && <p className="spinner-border text-primary"/>
