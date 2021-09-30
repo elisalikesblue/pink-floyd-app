@@ -10,6 +10,7 @@ export const AlbumDetail = ({title, cover, releaseDate, artist, trackCount, coun
 
         
         <div>
+            
             <Card className="mx-5 mt-5" style={{alignItems: 'center'}}>
                 <Card.Img src={cover} alt={title} style={{width: "200px", alignSelf: 'center'}} className="my-3"/>
                 {/* <img src={cover} alt={title} className="col-3 mt-5"></img> */}

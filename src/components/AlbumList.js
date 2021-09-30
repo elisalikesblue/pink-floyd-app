@@ -63,6 +63,8 @@ export const AlbumList = () => {
 
     return (
         <div>
+
+            <h3 className='ml-5 mt-5'>Álbumes</h3>
           
             <main>
                 {
@@ -73,7 +75,7 @@ export const AlbumList = () => {
 
                     
 
-                <MDBRow className='col-sm pl-5 pt-5'>
+                <MDBRow className='col-sm pl-5 pt-3'>
                         {
                             data.map ( item => {
                                 if(item.id){
